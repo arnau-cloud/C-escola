@@ -1,8 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int x = 3;
-    printf("%d", x);
-    char text[] = ("\nHola");
-    printf("%s",text);
+    int a = 5;
+    int b = 3;
+    printf("%d", a + b);
+    printf("\n%d", a - b);
+    printf("\n%d", a * b);
+    printf("\n%d", a / b);
+    printf("\n%d", a % b);
+
 }
